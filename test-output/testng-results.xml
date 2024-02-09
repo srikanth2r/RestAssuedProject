@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-07T11:31:11 SGT" name="Default suite" finished-at="2024-02-07T11:31:13 SGT" duration-ms="2475">
+    <groups>
+    </groups>
+    <test started-at="2024-02-07T11:31:11 SGT" name="Default test" finished-at="2024-02-07T11:31:13 SGT" duration-ms="2475">
+      <class name="Dailytesting.DataParameterisation">
+        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:Dailytesting.DataParameterisation@18025ced]" started-at="2024-02-07T11:31:11 SGT" name="addBook" data-provider="BooksData" finished-at="2024-02-07T11:31:13 SGT" duration-ms="2022" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sri]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:Dailytesting.DataParameterisation@18025ced]" started-at="2024-02-07T11:31:13 SGT" name="addBook" data-provider="BooksData" finished-at="2024-02-07T11:31:13 SGT" duration-ms="204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0404]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+        <test-method signature="addBook(java.lang.String,java.lang.String)[pri:0, instance:Dailytesting.DataParameterisation@18025ced]" started-at="2024-02-07T11:31:13 SGT" name="addBook" data-provider="BooksData" finished-at="2024-02-07T11:31:13 SGT" duration-ms="205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AnuSri]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1204]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+      </class> <!-- Dailytesting.DataParameterisation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
